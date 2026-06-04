@@ -1103,7 +1103,7 @@ app.post("/api/send-invite-email", async (req: express.Request, res: express.Res
     saveInvites(inviteTokensMap);
 
     // Formulate final secure invitation link
-    const secureTokenLink = "https://ais-dev-3ypu2jvyrraxfsxr7wo5va-810933903634.asia-southeast1.run.app/invite/bulk-sim-session";
+    const secureTokenLink = "https://ais-dev-3ypu2jvyrraxfsxr7wo5va-810933903634.asia-southeast1.run.app/#/invite/int_01xleopr1";
 
     console.log(`\n============== CANDIDATE SECURE PROTOCOL EMAIL ==============`);
     console.log(`TO: ${email}`);
